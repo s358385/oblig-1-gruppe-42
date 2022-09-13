@@ -16,7 +16,6 @@ public class Oblig1 {
         }
 
         else {
-            int maks_verdi = a[a.length - 1];
 
             for (int i = 0;i < a.length - 1;i++){
                 if (a[i] > a[i + 1]){
@@ -25,6 +24,8 @@ public class Oblig1 {
                     a[i + 1] = temp;
                 }
             }
+
+            int maks_verdi = a[a.length - 1];
 
             return maks_verdi;
         }

@@ -3,7 +3,7 @@
 Denne oppgaven er en innlevering i Algoritmer og Datastrukturer. 
 Oppgaven er levert av følgende studenter:
 * Navn Navnesen, S123456, s123456@oslomet.no
-* ...
+* Kaja Line Åbyholm Reehorst, s358385, s358385@oslomet.no
 
 # Arbeidsfordeling
 
@@ -15,6 +15,9 @@ I oppgaven har vi hatt følgende arbeidsfordeling:
 
 # Oppgavebeskrivelse
 
-I oppgave 1 så gikk vi frem ved å ... 
+I oppgave 1 har vi brukt en for-løkke til å finne ut hvilken verdi som er størst i en gitt tabell a.
+Løkken tester om en verdi er større enn sin naboverdi (fra venstre til høyre).
+Dersom dette er tilfelle, bytter de to verdiene plass.
+Når løkken har gått igjennom hele tabellen vil det største tallet bli "dyttet" helt til slutt.
 
 I oppgave 2 så brukte vi en ... til å ...
