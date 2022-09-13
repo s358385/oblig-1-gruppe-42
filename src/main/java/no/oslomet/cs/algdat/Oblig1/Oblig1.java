@@ -10,15 +10,70 @@ public class Oblig1 {
     ///// Oppgave 1 //////////////////////////////////////
     public static int maks(int[] a) {
         throw new UnsupportedOperationException();
+
+        if (a.length == 0){
+            throw new java.util.NoSuchElementException("Tabellen er tom!");
+        }
+
+        else {
+            int maks_verdi = a[a.length - 1];
+
+            for (int i = 0;i < a.length - 1;i++){
+                if (a[i] > a[i + 1]){
+                    int temp = a[i];
+                    a[i] = a[i + 1];
+                    a[i + 1] = temp;
+                }
+            }
+
+            return maks_verdi;
+        }
+
     }
 
     public static int ombyttinger(int[] a) {
         throw new UnsupportedOperationException();
+
+        int antall = 0;
+
+        for (int i = 0;i < a.length - 1;i++){
+            if (a[i] > a[i + 1]){
+                int temp = a[i];
+                a[i] = a[i + 1];
+                a[i + 1] = temp;
+                antall++;
+            }
+        }
+
+        return antall;
     }
 
     ///// Oppgave 2 //////////////////////////////////////
     public static int antallUlikeSortert(int[] a) {
         throw new UnsupportedOperationException();
+
+        for (int i = 0;i < a.length - 1;i++){
+            if (a[i] > a[i + 1]){
+                throw new java.util.IllegalStateException("Tabellen er usortert");
+            }
+        }
+
+        int antall = 1;
+
+        if (a.length == 0){
+            antall = 0;
+        }
+        else {
+            int tall = a[0];
+            for (int i = 1;i < a.length;i++){
+                if (a[i] != tall){
+                    tall = a[i];
+                    antall++;
+                }
+            }
+        }
+
+        return antall;
     }
 
     ///// Oppgave 3 //////////////////////////////////////
