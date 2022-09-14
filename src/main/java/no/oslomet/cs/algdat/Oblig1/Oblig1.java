@@ -12,7 +12,7 @@ public class Oblig1 {
         throw new UnsupportedOperationException();
 
         if (a.length == 0){
-            throw new java.util.NoSuchElementException("Tabellen er tom!");
+            throw new java.util.NoSuchElementException("Tabellen er tom");
         }
 
         else {

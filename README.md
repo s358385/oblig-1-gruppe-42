@@ -15,9 +15,15 @@ I oppgaven har vi hatt følgende arbeidsfordeling:
 
 # Oppgavebeskrivelse
 
-I oppgave 1 har vi brukt en for-løkke til å finne ut hvilken verdi som er størst i en gitt tabell a.
+I oppgave 1 bruker vi en for-løkke til å finne ut hvilken verdi som er størst i tabell a.
 Løkken tester om en verdi er større enn sin naboverdi (fra venstre til høyre).
 Dersom dette er tilfelle, bytter de to verdiene plass.
 Når løkken har gått igjennom hele tabellen vil det største tallet bli "dyttet" helt til slutt.
 
-I oppgave 2 så brukte vi en ... til å ...
+I oppgave 2 bruker vi en for-løkke til å finne ut hvor mange unike verdier det eksisterer i en sortert tabell a.
+Vi initialiserer et tall som er første verdi i tabellen. Så sjekker løkken alle andre verdier i tabellen,
+og sjekker om verdiene i tabellen er ulikt som tallet. Hvis det er det, betyr dette at det er et nytt tall.
+Hvis ikke betyr det at tallet har forekommet før, og vi allerede har talt det opp.
+Da teller vi en ny verdi, og lar tallet være det nye verdien vi gikk igjennom.
+Slik kan vi systematisk holde rede på riktig tall.
+Slik holder vi rede på de tallene det er flere av. 
